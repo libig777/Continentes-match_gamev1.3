@@ -1,0 +1,135 @@
+{
+    "id": "f434cf8a-8e45-4be2-8053-74b5a18e5f44",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Welcome"
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "83a50233-4701-42df-906f-eccd97c96d1b",
+            "label": "bacgroundContinentesTrans",
+            "components": [],
+            "texture": {
+                "key": "bacgroundContinentesTrans"
+            },
+            "x": 402,
+            "y": 300
+        },
+        {
+            "type": "Text",
+            "id": "6758e482-4a0f-4d6a-b724-47608835695e",
+            "label": "text_1",
+            "components": [],
+            "x": 138,
+            "y": 223,
+            "tintTopLeft": "#db5f20",
+            "tintTopRight": "#ed10eb",
+            "text": "Instrucciones\n",
+            "fontFamily": "Calibri",
+            "fontSize": "40px",
+            "fontStyle": "bold",
+            "color": "#eeddddff",
+            "stroke": "#2c06aaff",
+            "strokeThickness": 3
+        },
+        {
+            "type": "Text",
+            "id": "284927c1-e548-4751-8ddd-0f0a88d029ea",
+            "label": "text_2",
+            "components": [],
+            "x": 391,
+            "y": 347,
+            "text": "Desplazar el personaje hasta un bloque con las flechas de desplazamiento.",
+            "fontFamily": "Arial",
+            "fontSize": "22px",
+            "stroke": "#030303ff",
+            "strokeThickness": 3
+        },
+        {
+            "type": "Text",
+            "id": "776b8803-b8c5-4173-a641-cc65d3777597",
+            "label": "text_2_1",
+            "components": [],
+            "x": 286,
+            "y": 397,
+            "text": "Destapar los bloques con la tecla espaciadora.",
+            "fontFamily": "Arial",
+            "fontSize": "25px",
+            "stroke": "#030303ff",
+            "strokeThickness": 3
+        },
+        {
+            "type": "Image",
+            "id": "3b8a71b7-cca6-46bd-939b-aad317c37212",
+            "label": "image_1",
+            "components": [
+                "InteractiveObject",
+                "StartSceneOnClick",
+                "PushOnClick"
+            ],
+            "StartSceneOnClick.sceneKey": "Level",
+            "texture": {
+                "key": "texture",
+                "frame": "Button Pack - Green_Button Green - Play.png"
+            },
+            "x": 431,
+            "y": 478,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "type": "BitmapText",
+            "id": "2211c1d2-b335-45b0-b38a-3f06066cb662",
+            "label": "bitmaptext_1",
+            "components": [
+                "FloatingObject"
+            ],
+            "x": 400,
+            "y": 97,
+            "text": "Los Continentes",
+            "font": "hyperdrive",
+            "align": 1,
+            "fontSize": 80,
+            "letterSpacing": 2
+        },
+        {
+            "type": "Text",
+            "id": "246d3925-3628-4585-b1b7-39b60bc82df0",
+            "label": "text_3",
+            "components": [],
+            "x": 13,
+            "y": 233,
+            "originX": 0,
+            "originY": 0,
+            "text": "Tu misión es encontrar las parejas del continente con su nombre.",
+            "fontFamily": "Arial",
+            "fontSize": "25px",
+            "stroke": "#030303ff",
+            "strokeThickness": 3
+        },
+        {
+            "type": "Text",
+            "id": "6bf61a5c-d50a-460e-aae1-5b6a0d12215e",
+            "label": "text_3_1",
+            "components": [],
+            "x": 18,
+            "y": 284,
+            "originX": 0,
+            "originY": 0,
+            "text": "Para eso debes:",
+            "fontFamily": "Arial",
+            "fontSize": "30px",
+            "color": "#f88defff",
+            "stroke": "#030303ff",
+            "strokeThickness": 3
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}

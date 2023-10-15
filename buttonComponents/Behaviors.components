@@ -1,0 +1,53 @@
+{
+    "components": [
+        {
+            "name": "InteractiveObject",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "PushOnClick",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "StartSceneOnClick",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "sceneKey",
+                    "label": "Scene Key",
+                    "tooltip": "Key of the scene",
+                    "defValue": "",
+                    "type": {
+                        "id": "asset-key"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "FloatingObject",
+            "baseClass": "EventComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "offset",
+                    "label": "Offset",
+                    "tooltip": "The vertical offset to move the object",
+                    "defValue": 20,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Object Script Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}

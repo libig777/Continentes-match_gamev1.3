@@ -1,0 +1,286 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/Level.js",
+                "type": "sceneFile",
+                "key": "Level"
+            },
+            {
+                "url": "assets/player-animations.json",
+                "type": "animation",
+                "key": "player-animations"
+            },
+            {
+                "url": "components/Movement.js",
+                "type": "script",
+                "key": "Movement"
+            },
+            {
+                "url": "components/Physics.js",
+                "type": "script",
+                "key": "Physics"
+            },
+            {
+                "url": "assets/crate_03.png",
+                "type": "image",
+                "key": "crate_03"
+            },
+            {
+                "url": "assets/crate_04.png",
+                "type": "image",
+                "key": "crate_04"
+            },
+            {
+                "url": "assets/crate_05.png",
+                "type": "image",
+                "key": "crate_05"
+            },
+            {
+                "url": "assets/crate_06.png",
+                "type": "image",
+                "key": "crate_06"
+            },
+            {
+                "url": "Prefabs/Box.js",
+                "type": "script",
+                "key": "Box"
+            },
+            {
+                "url": "components/DepthSortY.js",
+                "type": "script",
+                "key": "DepthSortY"
+            },
+            {
+                "url": "assets/duck.png",
+                "type": "image",
+                "key": "duck"
+            },
+            {
+                "url": "components/Countdown.js",
+                "type": "script",
+                "key": "Countdown"
+            },
+            {
+                "atlasURL": "assets/texture.json",
+                "textureURL": "assets/texture.png",
+                "type": "atlas",
+                "key": "texture"
+            },
+            {
+                "url": [
+                    "assets/audio/bubble.ogg"
+                ],
+                "type": "audio",
+                "key": "bubble"
+            },
+            {
+                "url": [
+                    "assets/audio/caribbean-steel-drum-happiness-doug-maxwell.ogg"
+                ],
+                "type": "audio",
+                "key": "music"
+            },
+            {
+                "url": "components/Action.js",
+                "type": "script",
+                "key": "Action"
+            },
+            {
+                "url": "components/ItemHolder.js",
+                "type": "script",
+                "key": "ItemHolder"
+            },
+            {
+                "url": [
+                    "buttonComponents/EventComponent.js",
+                    "buttonComponents/InteractiveObject.js",
+                    "buttonComponents/PushOnClick.js",
+                    "buttonComponents/StartSceneOnClick.js"
+                ],
+                "type": "scripts",
+                "key": "EventComponent"
+            },
+            {
+                "url": "assets/itemsOcultos/africa.png",
+                "type": "image",
+                "key": "africa"
+            },
+            {
+                "url": "assets/itemsOcultos/africa02.png",
+                "type": "image",
+                "key": "africa02"
+            },
+            {
+                "url": "assets/itemsOcultos/america.png",
+                "type": "image",
+                "key": "america"
+            },
+            {
+                "url": "assets/itemsOcultos/america02.png",
+                "type": "image",
+                "key": "america02"
+            },
+            {
+                "url": "assets/itemsOcultos/antartida.png",
+                "type": "image",
+                "key": "antartida"
+            },
+            {
+                "url": "assets/itemsOcultos/antartida02.png",
+                "type": "image",
+                "key": "antartida02"
+            },
+            {
+                "url": "assets/itemsOcultos/asia.png",
+                "type": "image",
+                "key": "asia"
+            },
+            {
+                "url": "assets/itemsOcultos/asia02.png",
+                "type": "image",
+                "key": "asia02"
+            },
+            {
+                "url": "assets/itemsOcultos/bear.png",
+                "type": "image",
+                "key": "bear"
+            },
+            {
+                "url": "assets/itemsOcultos/europa.png",
+                "type": "image",
+                "key": "europa"
+            },
+            {
+                "url": "assets/itemsOcultos/europa02.png",
+                "type": "image",
+                "key": "europa02"
+            },
+            {
+                "url": "assets/itemsOcultos/oceania.png",
+                "type": "image",
+                "key": "oceania"
+            },
+            {
+                "url": "assets/itemsOcultos/oceania02.png",
+                "type": "image",
+                "key": "oceania02"
+            },
+            {
+                "url": "assets/player/player_01.png",
+                "type": "image",
+                "key": "player_01"
+            },
+            {
+                "url": "assets/player/player_02.png",
+                "type": "image",
+                "key": "player_02"
+            },
+            {
+                "url": "assets/player/player_03.png",
+                "type": "image",
+                "key": "player_03"
+            },
+            {
+                "url": "assets/player/player_04.png",
+                "type": "image",
+                "key": "player_04"
+            },
+            {
+                "url": "assets/player/player_11.png",
+                "type": "image",
+                "key": "player_11"
+            },
+            {
+                "url": "assets/player/player_12.png",
+                "type": "image",
+                "key": "player_12"
+            },
+            {
+                "url": "assets/player/player_13.png",
+                "type": "image",
+                "key": "player_13"
+            },
+            {
+                "url": "assets/player/player_14.png",
+                "type": "image",
+                "key": "player_14"
+            },
+            {
+                "url": "assets/player/player_15.png",
+                "type": "image",
+                "key": "player_15"
+            },
+            {
+                "url": "assets/player/player_16.png",
+                "type": "image",
+                "key": "player_16"
+            },
+            {
+                "url": "assets/player/player_23.png",
+                "type": "image",
+                "key": "player_23"
+            },
+            {
+                "url": "assets/player/player_24.png",
+                "type": "image",
+                "key": "player_24"
+            },
+            {
+                "url": "assets/Welcome.js",
+                "type": "sceneFile",
+                "key": "Welcome"
+            },
+            {
+                "url": "assets/bacgroundContinentesTrans.png",
+                "type": "image",
+                "key": "bacgroundContinentesTrans"
+            },
+            {
+                "textureURL": "assets/fonts/hyperdrive.png",
+                "fontDataURL": "assets/fonts/hyperdrive.xml",
+                "type": "bitmapFont",
+                "key": "hyperdrive"
+            },
+            {
+                "url": [
+                    "buttonComponents/FloatingObject.js"
+                ],
+                "type": "scripts",
+                "key": "FloatingObject"
+            },
+            {
+                "url": "assets/GameSounds.js",
+                "type": "script",
+                "key": "GameSounds"
+            },
+            {
+                "url": [
+                    "assets/audio/error.ogg"
+                ],
+                "type": "audio",
+                "key": "error"
+            },
+            {
+                "url": [
+                    "assets/audio/strange.ogg"
+                ],
+                "type": "audio",
+                "key": "strange"
+            },
+            {
+                "url": [
+                    "assets/audio/Ta Da-SoundBible.com-1884170640.ogg"
+                ],
+                "type": "audio",
+                "key": "tada"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2
+    }
+}
